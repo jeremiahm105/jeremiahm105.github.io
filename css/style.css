@@ -19,16 +19,41 @@ html {
 
 body {
     font-family: 'EB Garamond', serif;
-    background: linear-gradient(600deg, #f1f1f6, #aaaaad, #ffffff);
+    background: linear-gradient(300deg, #f1f1f6, #5179ee, #ffffff);
+    /*#1A233C*/
     color: #1A233C;
+    background-size: 180% 180%;
+    animation: gradient-animation 2s ease infinite;
+    height: 100%;
+}
+
+html {
+    /*background: linear-gradient(300deg, #E7E7EF, #1111a9, #76777C);*/
+
+    /*font-family: 'sans-serif', cursive;*/
+}
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 70% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 html {
     scroll-behavior: smooth;
 }
 
+.about-p {
+    color: whitesmoke;
+}
+
 p {
-    color: rgb(85, 85, 85);
+    color: rgb(255, 255, 255);
 }
 
 /* TRANSITION */
@@ -172,7 +197,6 @@ section {
 .section-container {
     display: flex;
 }
-
 
 /* PROFILE SECTION */
 
@@ -322,7 +346,7 @@ div.text-container {
     flex: 1;
     background: white;
     border-radius: 2rem;
-    //border: rgb(53, 53, 53) 0.1rem solid;
+    /*//border: rgb(53, 53, 53) 0.1rem solid;*/
     border-color: rgb(163, 163, 163);
     text-align: center;
 }
@@ -356,6 +380,10 @@ div.text-container {
     justify-content: center;
     flex-direction: column;
 }
+/*section#experience {*/
+/*    border:10px red solid;*/
+/*    margin-bottom: -150px;*/
+/*}*/
 
 .article-container {
     display: flex;
@@ -375,6 +403,13 @@ article {
 
 article .icon {
     cursor: default;
+}
+
+p.expo {
+    color: #1A233C;
+}
+p.edu {
+    color: #1A233C;
 }
 
 /* PROJECTS SECTION */
