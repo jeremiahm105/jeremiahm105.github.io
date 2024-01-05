@@ -271,6 +271,8 @@ section {
     padding: 1rem;
     width: 8rem;
     border-radius: 2rem;
+    letter-spacing: .1em;
+    line-height: 1;
 }
 
 .btn-color-1,
@@ -323,7 +325,9 @@ section {
 }
 
 div.text-container {
-    font-size: 17px;
+    font-size: 20px;
+    letter-spacing: .1em;
+    line-height: 1;
 }
 
 .about-containers,
