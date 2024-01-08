@@ -8,11 +8,8 @@
 }
 
 html {
-    /*background: linear-gradient(300deg, #f1f1f6, #aaaaad, #ffffff);*/
-    /*background-size: contain;*/
-    /*!*animation: gradient-animation 3s ease infinite;*!*/
-    /*height: 100vh;*/
     color: #161B33;
+    scroll-behavior: smooth;
 }
 
 /* GENERAL */
@@ -20,33 +17,24 @@ html {
 body {
     font-family: 'EB Garamond', serif;
     background: linear-gradient(300deg, #f1f1f6, #5179ee, #ffffff);
-    /*#1A233C*/
     color: #1A233C;
     background-size: 180% 180%;
     animation: gradient-animation 2s ease infinite;
     height: 100%;
 }
 
-html {
-    /*background: linear-gradient(300deg, #E7E7EF, #1111a9, #76777C);*/
-
-    /*font-family: 'sans-serif', cursive;*/
-}
 @keyframes gradient-animation {
     0% {
-        background-position: 0% 50%;
+        background-position: 0 50%;
     }
     50% {
         background-position: 70% 50%;
     }
     100% {
-        background-position: 0% 50%;
+        background-position: 0 50%;
     }
 }
 
-html {
-    scroll-behavior: smooth;
-}
 
 .about-p {
     color: whitesmoke;
@@ -58,17 +46,16 @@ p {
 
 /* TRANSITION */
 
-a,
-.btn {
+a, .btn {
     transition: all 300ms ease;
 }
 
 /* DESKTOP NAV */
 
-nav,
-.nav-links {
+nav, .nav-links {
     display: flex;
 }
+
 /*edit for white space*/
 nav {
     justify-content: space-around;
