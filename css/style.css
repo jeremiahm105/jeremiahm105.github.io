@@ -19,7 +19,7 @@ body {
     background: linear-gradient(300deg, #f1f1f6, #5179ee, #ffffff);
     color: #1A233C;
     background-size: 180% 180%;
-    animation: gradient-animation 2s ease infinite;
+    animation: gradient-animation 3s ease infinite;
     height: 100%;
 }
 
@@ -34,7 +34,6 @@ body {
         background-position: 0 50%;
     }
 }
-
 
 .about-p {
     color: whitesmoke;
